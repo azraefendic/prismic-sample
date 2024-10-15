@@ -1,0 +1,79 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Officia nisi tempor nostrud amet occaecat et cupidatat irure amet laborum velit incididunt aliquip. Dolor non nostrud pariatur proident esse aliqua enim dolore qui labore reprehenderit est cupidatat. Ipsum ex magna pariatur esse enim quis ipsum."
+						}
+					}
+				]
+			},
+			"cta_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "baby"
+				}
+			},
+			"cta_text": {
+				"__TYPE__": "FieldContent",
+				"value": "couple",
+				"type": "Text"
+			},
+			"anchor": {
+				"__TYPE__": "FieldContent",
+				"value": "strange",
+				"type": "Text"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "prominent",
+		"primary": {
+			"message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Cupidatat velit aliquip dolore."
+						}
+					}
+				]
+			},
+			"cta_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "give"
+				}
+			},
+			"cta_text": {
+				"__TYPE__": "FieldContent",
+				"value": "weather",
+				"type": "Text"
+			},
+			"anchor": {
+				"__TYPE__": "FieldContent",
+				"value": "along",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

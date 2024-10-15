@@ -1,0 +1,99 @@
+{
+  "id": "teaser",
+  "type": "SharedSlice",
+  "name": "Teaser",
+  "description": "Teaser",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading4,strong,em"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        },
+        "teaser_link": {
+          "type": "Link",
+          "config": {
+            "label": "Teaser Link",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null,
+            "allowText": true
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "teaserWithImage",
+      "name": "Teaser - With Image",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading4,strong,em"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        },
+        "teaser_link": {
+          "type": "Link",
+          "config": {
+            "label": "Teaser Link",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null,
+            "allowText": true
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1200,
+              "height": 500
+            },
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 320,
+                "height": 320
+              }
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
